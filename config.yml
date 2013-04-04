@@ -1,0 +1,24 @@
+#GeneralSettings
+
+Sql Login : root
+Sql Password : password
+
+
+#Basic Free For All
+
+Center Of Spawn X : 0
+Center Of Spawn Y : 0
+Center Of Spawn Z : 0
+
+#Basic Team Deathmatch
+
+Red Team Spawn X : 0
+Red Team Spawn Y : 0
+Red Team Spawn Z : 0
+
+Green Team Spawn X : 0
+Green Team Spawn Y : 0
+Green Team Spawn Z : 0
+
+
+#SurvivalGames

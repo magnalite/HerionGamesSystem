@@ -1,0 +1,11 @@
+name: HerionGamesSystem
+main: herionGamesSystem.HerionGamesSystem
+version: 1.0
+description: Herion Games System!
+depend: [Spout]
+commands:
+   hgs:
+      description: HerionGamesSystem command base.
+      usage: Improper usage /<command> [arg1] [arg2] etc
+      permission: <plugin name>.hgs
+      permission-message: You don't have <permission>
