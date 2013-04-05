@@ -194,7 +194,7 @@ public class BasicTeamDeathMatch {
 			for(Player key : PlayersInMatch.keySet()){
 				key.getInventory().clear();
 				HerionPlayerGame.remove(key);
-				key.sendMessage(ChatColor.GREEN + "The red team had won with " + RedTeamKills + " kills!");
+				key.sendMessage(ChatColor.GREEN + "The red team has won with " + RedTeamKills + " kills!");
 				PlayersInMatch.remove(key);
 				key.teleport(key.getServer().getWorld("World").getSpawnLocation());
 				key.setHealth(key.getMaxHealth());
@@ -206,7 +206,7 @@ public class BasicTeamDeathMatch {
 			for(Player key : PlayersInMatch.keySet()){
 				key.getInventory().clear();
 				HerionPlayerGame.remove(key);
-				key.sendMessage(ChatColor.GREEN + "The green team had won with " + GreenTeamKills + " kills!");
+				key.sendMessage(ChatColor.GREEN + "The green team has won with " + GreenTeamKills + " kills!");
 				PlayersInMatch.remove(key);
 				key.teleport(key.getServer().getWorld("World").getSpawnLocation());
 				key.setHealth(key.getMaxHealth());
